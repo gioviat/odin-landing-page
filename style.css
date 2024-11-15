@@ -20,6 +20,11 @@ body {
     display: flex;
 }
 
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
