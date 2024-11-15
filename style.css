@@ -10,14 +10,64 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    color: #F9FAF8;
-    background-color: #1F2937;
-    padding: 8px;
+    align-items: center;
+    background-color: #11171f;
+    padding: 18px;
     margin: 0;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .right-links {
     display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 100px 180px;
+    gap: 32px;
+    background-color: #1F2937;
+}
+
+#hero-maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex: auto;
+}
+
+#hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: auto;
+    line-height: 140%;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+#meet-button {
+    background: #c2c6d4;
+    border: 1px solid #c2c6d4; 
+    color: #2c323b;
+}
+
+.hero-img {
+    flex: auto;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -31,4 +81,15 @@ ul {
     margin: 0;
     display: flex;
     gap: 16px;
+}
+
+button {
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
 }
