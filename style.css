@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Inter Variable', 'Helvetica Neue', 'Arial', 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 8px;
+    margin: 0;
+}
+
+.right-links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
