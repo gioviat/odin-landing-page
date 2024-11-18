@@ -7,13 +7,16 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #11171f;
     padding: 18px;
     margin: 0;
+}
+
+.header {
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -139,6 +142,11 @@ body {
     font-weight: light;
     font-size: 12px;
     margin-top: 8px;
+}
+
+.footer {
+    justify-content: center;
+    color: #E5E7EB; 
 }
 
 h1 {
