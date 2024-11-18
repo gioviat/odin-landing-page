@@ -58,12 +58,13 @@ body {
 }
 
 .hero-img {
-    flex: auto;
+    width: 40%;
 }
 
 .container {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
     margin-bottom: 60px;
